@@ -41,14 +41,6 @@ export default defineConfig({
     }),
   ],
   base: "./",
-  build: {
-    outDir: 'docs',
-    rollupOptions: {
-      output: {
-        manualChunks: undefined,
-      },
-    },
-  },
   optimizeDeps: {
     exclude: [
       'vuetify',
