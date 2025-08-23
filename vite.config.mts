@@ -40,7 +40,7 @@ export default defineConfig({
       },
     }),
   ],
-  base: "/mediguard_marketing/",
+  base: "./",
   build: {
     outDir: 'docs',
   },
