@@ -40,7 +40,7 @@ export default defineConfig({
       },
     }),
   ],
-  base: "./",
+  base: "/mediguard_marketing/",
   optimizeDeps: {
     exclude: [
       'vuetify',
