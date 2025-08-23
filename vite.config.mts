@@ -40,6 +40,9 @@ export default defineConfig({
       },
     }),
   ],
+  build: {
+    outDir: 'docs',
+  },
   optimizeDeps: {
     exclude: [
       'vuetify',
